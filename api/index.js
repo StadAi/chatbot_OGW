@@ -15,5 +15,4 @@ app.get("/api/chat", (req, res) => {
     res.json({ antwoord: "Hallo! Hoe kan ik je helpen?" });
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`✅ Server draait op poort ${PORT}`));
+export default app;
