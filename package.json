@@ -1,0 +1,28 @@
+{
+  "name": "chatbot_ogw",
+  "version": "1.0.0",
+  "description": "Chatbot PoC voor de Omgevingswet",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StadAi/chatbot_OGW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StadAi/chatbot_OGW/issues"
+  },
+  "homepage": "https://github.com/StadAi/chatbot_OGW#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.85.0"
+  }
+}
